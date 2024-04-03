@@ -3,5 +3,9 @@
     "password": "admin123",
     "incorrectUsername": "test",
     "incorrectPassword": "test123",
-    "post": "Hello World!"
+    "post": "Hello World!",
+    "email": "ramuonlineshop@gmail.com",
+    "passwod1": "dewa1234",
+    "incorrectEmail":"ramu12221@gmail.com",
+    "incorrectPassword1":"sate1234"
   }
