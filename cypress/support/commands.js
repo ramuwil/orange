@@ -31,9 +31,9 @@ Cypress.Commands.add('login', (username, password) => {
 Cypress.Commands.add('typeInField', (field, value) => {
     cy.get('label').contains(field).parent().parent().find('div').eq(1).type(value);
 })
-Cypress.Commands.add('masuk',(email,password) =>{
+Cypress.Commands.add('masuk',(email,password1) =>{
     cy.get('input[name="email"]').type(email);
-    cy.get('input[name="password"]').type(password);
+    cy.get('input[name="password"]').type(password1);
     cy.get('#login > .btn').click()  
 })
 Cypress.Commands.add('forgot',(email)=>{
