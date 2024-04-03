@@ -1,0 +1,20 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "description": "Automation Testing OrangeHRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OrangeHRM"
+  ],
+  "author": "Ramu Will Sandra",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
