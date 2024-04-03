@@ -13,6 +13,9 @@ module.exports = defineConfig({
       },
   },
   env: {
-    url: "https://opensource-demo.orangehrmlive.com/"
+    url: "https://opensource-demo.orangehrmlive.com/",
+    url1st: "https://sistemtoko.com/login",
+    url2nd: "https://sistemtoko.com/forgot"
+
   },
 });
